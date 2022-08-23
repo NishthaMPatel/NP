@@ -1,12 +1,10 @@
-import java.util.*
-fun main(args: Array<String>)
-{
-    val reader = Scanner(System.`in`)
-    print("Enter a number :- ")
-    val a = reader.nextInt()
-
-    if ((a % 2) == 0)
-        println("Number is even")
-    else
-        println("Number is odd")
+fun main(){
+    print("Enter the number :- ")
+    val n1 = readLine()!!.toInt()
+    if (n1%2==0){
+        println("$n1 is even nummber")
+    }
+    else{
+        println("$n1 is odd number")
+    }
 }
